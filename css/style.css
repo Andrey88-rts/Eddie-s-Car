@@ -62,6 +62,10 @@
   max-width: 370px;
 }
 
+.input {
+  min-width: 370px;
+}
+
 .header {
   width: 100%;
   height: 100px;
@@ -226,5 +230,107 @@
   font-size: 18px;
   font-weight: 400;
   font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.section-price {
+  background: url("../img/section-price/bg_image.jpg") no-repeat center;
+  min-height: 500px;
+}
+
+.price {
+  text-align: right;
+  margin-right: 18px;
+}
+
+.price__back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.price__title {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Proxima Nova Black", sans-serif;
+}
+
+.price__subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 507px;
+}
+
+.price__subtitle__text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 30px;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.price__button {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  background-color: #1866af;
+  padding: 33px 108px;
+  margin-left: 30px;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.price__input {
+  border: none;
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  padding-bottom: 29px;
+  padding-left: 31px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+  color: #818181;
+  margin-bottom: 55px;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.price__input__image {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+
+.form-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.form-search_email-tel {
+  position: relative;
+  margin-right: 30px;
+}
+
+.form-search_email-tel:last-child {
+  margin-right: 0px;
 }
 /*# sourceMappingURL=style.css.map */

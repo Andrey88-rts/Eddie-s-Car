@@ -68,7 +68,7 @@
 
 .header {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   background-color: #191919;
 }
 
@@ -104,6 +104,7 @@
   font-size: 12px;
   font-weight: 700;
   line-height: 24px;
+  margin-right: 185px;
   font-family: "Proxima Nova Regular", sans-serif;
 }
 
@@ -130,7 +131,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   min-height: 46px;
-  margin-left: 185px;
+  margin-right: 28px;
 }
 
 .navbar__mobile {
@@ -149,18 +150,21 @@
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-left: 28px;
   font-family: "Proxima Nova Regular", sans-serif;
 }
 
 .section-parts {
-  background: url("../img/section_parts/bg_image.jpg") no-repeat center;
+  background: url("../img/section_parts/bg_image.png") no-repeat center;
 }
 
 .origin-parts {
   background-color: #f7b516;
   max-width: 570px;
-  padding: 100px 124px 125px 100px;
+  max-height: 860px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 124px;
+  padding-bottom: 125px;
 }
 
 .origin-parts__title {
@@ -202,7 +206,7 @@
 }
 
 .origin-parts__list_item:last-child {
-  margin-bottom: 0;
+  margin-bottom: 77px;
 }
 
 .origin-parts__list_icon {
@@ -234,7 +238,6 @@
 
 .section-price {
   background: url("../img/section-price/bg_image.jpg") no-repeat center;
-  min-height: 500px;
 }
 
 .price {
@@ -252,10 +255,11 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding-bottom: 59px;
 }
 
 .price__title {
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 60px;
   color: #000000;
   font-size: 30px;
@@ -332,5 +336,61 @@
 
 .form-search_email-tel:last-child {
   margin-right: 0px;
+}
+
+.section-model {
+  background-color: #08243e;
+}
+
+.delivery {
+  padding-top: 100px;
+  max-height: 587px;
+}
+
+.delivery__title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Proxima Nova Black", sans-serif;
+}
+
+.delivery__subtitle {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 99px;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.delivery__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 49px;
+}
+
+.delivery__paragraphs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 99px;
+  font-family: "Proxima Nova Regular", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

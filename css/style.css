@@ -1,6 +1,8 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -406,7 +408,7 @@
 
 .articul__title {
   color: #ffffff;
-  font-style: 30px;
+  font-size: 30px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 30px;
@@ -416,7 +418,7 @@
 .articul__title__footer {
   text-align: center;
   color: #ffffff;
-  font-style: 14px;
+  font-size: 14px;
   font-weight: 400;
   margin-top: 60px;
   margin-bottom: 29px;
@@ -425,7 +427,7 @@
 
 .articul__subtitle {
   color: #ffffff;
-  font-style: 20px;
+  font-size: 20px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 60px;
@@ -435,7 +437,7 @@
 .articul__subtitle__footer {
   text-align: center;
   color: #ffffff;
-  font-style: 14px;
+  font-size: 14px;
   font-weight: 400;
   margin-bottom: 16px;
   font-family: "Proxima Nova Regular", sans-serif;
@@ -446,7 +448,7 @@
   padding-bottom: 29px;
   padding-left: 31px;
   color: #818181;
-  font-style: 13px;
+  font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
   font-family: "Proxima Nova Regular", sans-serif;
@@ -472,7 +474,7 @@
 .articul__phone {
   color: #ffffff;
   text-align: center;
-  font-style: 30px;
+  font-size: 30px;
   font-weight: 400;
   font-family: "Proxima Nova Extra Bold", sans-serif;
 }
@@ -505,7 +507,7 @@
 
 .garantee__title {
   color: #000000;
-  font-style: 36px;
+  font-size: 36px;
   font-weight: 400;
   text-align: center;
   margin-top: 100px;
@@ -539,7 +541,7 @@
 
 .garantee__subtitle {
   color: #000000;
-  font-style: 18px;
+  font-size: 18px;
   font-weight: 400;
   text-align: center;
   margin-top: 40px;
@@ -548,7 +550,7 @@
 }
 
 .garantee__link {
-  font-style: 18px;
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
   font-family: "Proxima Nova Regular", sans-serif;
@@ -563,5 +565,44 @@
 .garantee__image {
   text-align: center;
   margin-top: 100px;
+}
+
+.section-bonus {
+  background-color: #08243e;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bonus__title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: "Proxima Nova Black", sans-serif;
+}
+
+.bonus__sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.bonus__sale__image {
+  text-align: center;
+}
+
+.bonus__sale__subtitle {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 40px;
+  font-family: "Proxima Nova Regular", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

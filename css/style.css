@@ -64,6 +64,7 @@
 
 .input {
   min-width: 370px;
+  border: none;
 }
 
 .header {
@@ -101,7 +102,7 @@
       -ms-flex-align: center;
           align-items: center;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   line-height: 24px;
   margin-right: 185px;
@@ -287,7 +288,7 @@
 
 .price__button {
   color: #ffffff;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -392,5 +393,108 @@
   font-weight: 400;
   padding-bottom: 99px;
   font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.section-articul {
+  background: url(../../img/section-articul/bg_image.png) no-repeat center;
+}
+
+.articul {
+  padding-top: 100px;
+  min-height: 580px;
+}
+
+.articul__title {
+  color: #ffffff;
+  font-style: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Proxima Nova Black", sans-serif;
+}
+
+.articul__title__footer {
+  text-align: center;
+  color: #ffffff;
+  font-style: 14px;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: 29px;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.articul__subtitle {
+  color: #ffffff;
+  font-style: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.articul__subtitle__footer {
+  text-align: center;
+  color: #ffffff;
+  font-style: 14px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.articul__input {
+  padding-top: 30px;
+  padding-bottom: 29px;
+  padding-left: 31px;
+  color: #818181;
+  font-style: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.articul__button {
+  padding: 31px 128px;
+  background-color: #f7b516;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+
+.articul__input__image {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.articul__phone {
+  color: #ffffff;
+  text-align: center;
+  font-style: 30px;
+  font-weight: 400;
+  font-family: "Proxima Nova Extra Bold", sans-serif;
+}
+
+.articul__mobile {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.form-search-art {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-search_tel {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */

@@ -564,4 +564,43 @@
   text-align: center;
   margin-top: 100px;
 }
+
+.section-bonus {
+  background-color: #08243e;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bonus__title {
+  color: #ffffff;
+  font-style: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: "Proxima Nova Black", sans-serif;
+}
+
+.bonus__sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.bonus__sale__image {
+  text-align: center;
+}
+
+.bonus__sale__subtitle {
+  text-align: center;
+  color: #ffffff;
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 40px;
+  font-family: "Proxima Nova Regular", sans-serif;
+}
 /*# sourceMappingURL=style.css.map */

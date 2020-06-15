@@ -1,0 +1,36 @@
+.section-footer
+  background-color: $bc_header
+  min-height: 120px
+  padding: 0
+.footer
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 40px 0
+  &-made
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__text
+      color: $primary_color
+      font-size: 12px
+      font-weight: 400
+      text-transform: uppercase
+      margin-right: 5px
+      +pn_regular    
+  &-contact
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-end
+    &__text
+      color: $primary_color
+      font-size: 13px
+      font-weight: 400
+      +pn_regular
+    &__mobile
+      color: $primary_color
+      font-size: 18px
+      font-weight: 400
+      text-decoration: none
+      +pn_black

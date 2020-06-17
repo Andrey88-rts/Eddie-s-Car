@@ -1,11 +1,14 @@
+.section-service
+    padding: 100px 0
 .service
+    display: flex
+    flex-direction: column
+    align-items: center
     &__title
         color: $second_color
         font-size: 36px
-        font-weight: 400
-        margin: auto
-        text-align: center
-        width: 830px
+        font-weight: 400        
+        text-align: center        
         margin-bottom: 100px
         +pn_black    
     &-list
@@ -23,3 +26,16 @@
             text-align: center
             margin-top: 40px
             +pn_regular
+
+@media ( max-width:  768px)
+    .section-service
+        padding: 25px 0
+    .service
+        &__title
+            margin-bottom: 30px
+        &-list
+            flex-direction: column
+            align-items: center
+        &-item
+            width: 75%
+            margin-bottom: 15px

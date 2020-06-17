@@ -19,7 +19,7 @@
     display: flex
     align-items: center
     margin-left: 507px
-    &__text
+    &-text
       color: $second_color
       font-size: 14px
       font-weight: 400
@@ -47,7 +47,7 @@
     color: $input_color 
     margin-bottom: 55px  
     +pn_regular
-    &__image
+    &-image
       position: absolute
       top: 25px
       right: 30px
@@ -55,9 +55,33 @@
   display: flex
   align-items: center
   justify-content: flex-end
-  &_email-tel
+  &__email-tel
     position: relative
     margin-right: 30px
-  &_email-tel:last-child
+  &__email-tel:last-child
     margin-right: 0px 
-  
+
+
+@media (max-width: 1170px)
+  .price
+    text-align: center
+    margin: 0
+    &__subtitle
+      display: none      
+    &__back
+      flex-direction: column        
+    &__title
+      text-align: center
+      margin-bottom: 30px
+      padding-top: 20px
+    &__input
+      margin-bottom: 10px
+    &__button
+      margin-left: 0px
+      padding: 20px 108px
+      font-size: 16px
+  .form-search
+    flex-direction: column
+    justify-content: space-between
+    &__email-tel
+      margin-right: 0

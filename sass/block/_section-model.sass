@@ -1,8 +1,8 @@
 .section-model
   background-color: $bc_section-model
 .delivery
-  padding-top: 100px
-  max-height: 587px
+  padding: 100px 0
+  min-height: 587px
   &__title
     color: $primary_color
     font-size: 36px
@@ -20,18 +20,31 @@
   &__images
     display: flex
     justify-content: space-around
-    align-items: center
-    margin-bottom: 49px
-  &__paragraphs
-    display: flex
-    justify-content: space-around
-    align-items: flex-start
-    text-align: center
-    color: $primary_color
-    font-size: 18px
-    font-weight: 400
-    padding-bottom: 99px
-    +pn_regular
+    align-items: center    
+    &__text
+      color: $primary_color
+      font-size: 18px
+      font-weight: 400
+      padding-top: 30px      
+      text-align: center
+      +pn_regular
+    &__img
+      text-align: center      
+  
 
+@media ( max-width:  768px)
+  .delivery
+    padding: 25px 5px
+    &__title       
+      margin-bottom: 20px
+    &__subtitle
+      margin-bottom: 40px
+    &__images
+      flex-flow: column
+      &__text
+        padding-bottom: 20px
+      &__img
+        width: 100%
+        
 
 

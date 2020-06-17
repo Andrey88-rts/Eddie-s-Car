@@ -11,7 +11,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="navbar-wrapper">
+        <div class="navbar">
           <div class="navbar__logo">
             <img src="img/header/logo.png" alt="логотип" />
           </div>
@@ -39,42 +39,42 @@
             в Ваш город!
           </div>
           <div class="origin-parts__list">
-            <div class="origin-parts__list_item">
+            <div class="origin-parts__list-item">
               <img
-                class="origin-parts__list_icon"
+                class="origin-parts__list-icon"
                 src="img/section_parts/piggy.png"
                 alt="копилка"
               />
-              <span class="origin-parts__list_title"
+              <span class="origin-parts__list-title"
                 >Дилерские цены - ниже на 20%, <br />
                 работаем без посредников!
               </span>
             </div>
-            <div class="origin-parts__list_item">
+            <div class="origin-parts__list-item">
               <img
-                class="origin-parts__list_icon"
+                class="origin-parts__list-icon"
                 src="img/section_parts/delivery-truck.png"
                 alt="автомобиль"
               />
-              <span class="origin-parts__list_title"
+              <span class="origin-parts__list-title"
                 >Срочная бесплатная доставка <br />
                 за 7 дней</span
               >
             </div>
-            <div class="origin-parts__list_item">
+            <div class="origin-parts__list-item">
               <img
-                class="origin-parts__list_icon"
+                class="origin-parts__list-icon"
                 src="img/section_parts/election-event-on.png"
                 alt="рассрочка"
               />
-              <span class="origin-parts__list_title"
+              <span class="origin-parts__list-title"
                 >Даем рассрочку <br />
                 6 месяцев</span
               >
             </div>
-            <div class="origin-parts__list_item">
-              <img class="origin-parts__list_icon" src="img/section_parts/medal.png" alt="медаль" />
-              <span class="origin-parts__list_title"
+            <div class="origin-parts__list-item">
+              <img class="origin-parts__list-icon" src="img/section_parts/medal.png" alt="медаль" />
+              <span class="origin-parts__list-title"
                 >Даем гарантию <br />
                 от 12 месяцев
               </span>
@@ -91,24 +91,24 @@
             на электронную почту!
           </div>
           <form action="#" class="form-search">
-            <div class="form-search_email-tel">
+            <div class="form-search__email-tel">
               <input type="e-mail" class="price__input input" placeholder="Введите ваш e-mail" />
-              <img class="price__input__image" src="img/section-price/email.jpg" alt="" />
+              <img class="price__input-image" src="img/section-price/email.jpg" alt="" />
             </div>
 
-            <div class="form-search_email-tel">
+            <div class="form-search__email-tel">
               <input type="tel" class="price__input input" placeholder="Введите ваш телефон" />
-              <img class="price__input__image" src="img/section-price/call-phone.png" alt="" />
+              <img class="price__input-image" src="img/section-price/call-phone.png" alt="" />
             </div>
           </form>
           <div class="price__back">
             <div class="price__subtitle">
-              <span class="price__subtitle__text"
+              <span class="price__subtitle-text"
                 >Прайс придет к Вам на почту <br />
                 в течение 5 минут!</span
               >
               <span class="price__clock">
-                <img class="price__clock__image" src="img/section-price/clock.png" alt=""
+                <img class="price__clock-image" src="img/section-price/clock.png" alt=""
               /></span>
             </div>
             <button class="button price__button">Получить прайс</button>
@@ -116,7 +116,7 @@
         </div>
       </div>
     </section>
-    <section class="section-model">
+    <section class="section section-model">
       <div class="container">
         <div class="delivery">
           <div class="delivery__title">Вам не придется ждать!</div>
@@ -126,34 +126,25 @@
           </div>
           <div class="delivery__images">
             <div class="delivery__images__img">
-              <img src="img/section-delivery/engine.png" alt="engine" />
+              <img width="80px" src="img/section-delivery/engine.png" alt="engine" />
+              <p class="delivery__images__text">Любые типы деталей <br />
+                от шайбы до двигателя!</p>
             </div>
             <div class="delivery__images__img">
-              <img src="img/section-delivery/dump-truck.png" alt="truck" />
+              <img width="80px" src="img/section-delivery/dump-truck.png" alt="truck" />
+              <p class="delivery__images__text">Все модификации Белаз <br />
+                от 45т до 450 т</p>
             </div>
             <div class="delivery__images__img">
-              <img src="img/section-delivery/calendar.png" alt="calendar" />
+              <img width="80px" src="img/section-delivery/calendar.png" alt="calendar" />
+              <p class="delivery__images__text">Отгружаем в день заказа!</p>
             </div>
             <div class="delivery__images__img">
-              <img src="img/section-delivery/delivery_4.png" alt="delivery" />
+              <img width="80px" src="img/section-delivery/delivery_4.png" alt="delivery" />
+              <p class="delivery__images__text">Доставим в любое место!</p>
             </div>
           </div>
-          <div class="delivery__paragraphs">
-            <div class="delivery__paragraphs__paragraph">
-              Любые типы деталей <br />
-              от шайбы до двигателя!
-            </div>
-            <div class="delivery__paragraphs__paragraph">
-              Все модификации Белаз <br />
-              от 45т до 450 т
-            </div>
-            <div class="delivery__paragraphs__paragraph">
-              Отгружаем в день заказа!
-            </div>
-            <div class="delivery__paragraphs__paragraph">
-              Доставим в любое место!
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
@@ -500,7 +491,7 @@
         </div>
       </div>
     </section>
-    <section class="section section__map">
+    <section class="section section-map">
       <div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A99b534ca1aea1379439a8824b6006dc2de5da3f6b97177bbb24578869483cbf1&amp;width=100%25&amp;height=375&amp;lang=ru_RU&amp;scroll=true"></script></div>
     </section>
     <footer class="section section-footer">
